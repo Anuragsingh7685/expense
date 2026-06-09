@@ -1,3 +1,62 @@
+```md
+# 🚧 Current Project Status
+
+## GitHub Repositories
+
+| Project | Repository |
+|----------|------------|
+| Landing Page | https://github.com/Anuragsingh7685/expensewisewebpage |
+
+
+## Project Overview
+
+ExpenseWise consists of two separate applications:
+
+1. **Landing Website** – Public-facing website for visitors.
+2. **ExpenseWise Web Application** – Main expense tracking platform.
+
+The application is connected to a **Neon PostgreSQL Database** using **Drizzle ORM**. User expenses, settings, budgets, and analytics data are successfully stored and retrieved from the database.
+
+## Current Working Status
+
+| Feature | Status | Details |
+|----------|---------|---------|
+| Landing Page UI | ✅ Working | Website is functional |
+| Contact Form | ✅ Working | Users can submit messages |
+| Login Button | ✅ Working | Redirects users to the web app |
+| Clerk Authentication | ✅ Working | Google OAuth & Email/Password login |
+| User Registration | ✅ Working | New account creation works |
+| Dashboard Analytics | ✅ Working | Statistics and charts displayed correctly |
+| Expense Management | ✅ Working | Add, edit, and delete expenses |
+| Transaction History | ✅ Working | Filtering and management available |
+| Calendar View | ✅ Working | Daily expense breakdown supported |
+| Budget Management | ✅ Working | Budget data saved to database |
+| Settings Page | ✅ Working | Preferences stored successfully |
+| Notifications Settings | ✅ Working | Saved in database |
+| PDF Export | ✅ Working | Expense reports generated |
+| API Endpoints | ✅ Working | Backend routes operational |
+| Neon PostgreSQL Database | ✅ Working | Database connection established |
+| Drizzle ORM | ✅ Working | Database operations functional |
+| Data Persistence | ✅ Working | User data stored permanently |
+| Mobile Responsive Design | ✅ Working | Supports desktop and mobile devices |
+
+## Currently Not Working / Pending Improvements
+
+| Feature | Status | Notes |
+|----------|---------|---------|
+| Automatic UI Refresh After Updates | ❌ Not Implemented | Users may need to manually refresh after some updates |
+## Database Status
+
+- ✅ Neon PostgreSQL connected successfully
+- ✅ Drizzle ORM configured and operational
+- ✅ Expense data stored correctly
+- ✅ User settings stored correctly
+- ✅ Budget settings stored correctly
+- ✅ Analytics data generated correctly
+- ✅ Authentication integrated successfully
+
+
+
 # ExpenseWise — Personal Expense Tracker
 
 ExpenseWise is a full-stack personal finance web application that lets users log, categorise, and analyse their daily spending. The project covers the complete product surface: a Clerk-powered authentication flow (Google OAuth + email/password), a real-time analytics dashboard with three chart types, an interactive calendar where every day is clickable to reveal a spending breakdown, a filterable transaction history with inline edit and delete, a PDF export that embeds summary statistics and tables, per-user budget and notification settings persisted to a serverless Postgres database, and a suite of microservice-style API routes that follow REST conventions. The UI uses an off-white cream palette, the DM Sans + Fraunces type pairing, and is fully responsive down to mobile.
